@@ -9,7 +9,7 @@ const Dashboard = () => {
   const getTodos = async() => {
     const res = await fetch('https://jsonplaceholder.typicode.com/todos')
     const data = await res.json()
-    ctx.setTodos(data)
+    // ctx.setTodos(data)
     console.log(data)
   }
 
